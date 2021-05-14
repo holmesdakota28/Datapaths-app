@@ -3,8 +3,6 @@ import {StyleSheet, Text, View, ScrollView, Dimensions, Image} from 'react-nativ
 import Constants from 'expo-constants';
 import CollapsibleView from "@eliav2/react-native-collapsible-view";
 
-import ToggleButton from './components/ToggleButton';
-
 const windowWidth = Dimensions.get('window').width;
 const windowHeight = Dimensions.get('window').height;
 
@@ -126,7 +124,13 @@ export default function App() {
               style={ styles.subBorderSwag }
               arrowStyling={ { size: 18, rounded: true, thickness: 4, color: "#E84855" } }>
                 <Text style = {styles.info}>
-                  ........
+                  -AND returns outputs a 1 only if both inputs are 1
+                  {'\n'}{'\n'}
+                  -OR outputs a 1 if either inputs are a 1
+                  {'\n'}{'\n'}
+                  -XOR outputs a 1 if either inputs are 1 but outputs a 0 if both inputs are 1
+                  {'\n'}{'\n'}
+                  -NOT outputs a 1 if both are 0s
                 </Text>
                 <Image style={styles.image} source={require('./assets/LogicGates.png')}/>
             </CollapsibleView>
