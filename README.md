@@ -4,7 +4,7 @@
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">CPU Datapath Design Mobile App</h3>
+  <h3 align="center">CPU Datapath Design Mobile App (React-Native)</h3>
 
   <p align="center">
    An awesome educational tool for educating developers on computer architecture CPU datapath design elements.
